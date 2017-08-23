@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>图片响应式</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-1"></div>
+					<div class="col-sm-10">
+						<h2 class="page-header">折叠 <small>按钮折叠</small></h2>						
+						<button class="btn btn-info" data-toggle="collapse" data-target="#mydata">点击显示信息</button>
+						<div id="mydata" class="collapse">
+							昨天我吃了面包可好吃了<br />
+							昨天我吃了面包可好吃了<br />
+							昨天我吃了面包可好吃了<br />
+						</div>
+						
+						<h2 class="page-header">折叠 <small>列表折叠：只允许显示一项</small></h2>
+						<div class="panel-group" id="zdk">
+							<div class="panel panel-info">
+								
+								<div class="panel-heading">
+									<div class="panel-title">
+										<a href="#wx" data-toggle="collapse" data-parent="#zdk">吴昕</a>
+									</div>
+								</div>
+								
+								<div class="panel-collapse collapse in" id="wx">
+									<div class="panel-body">
+										最近在录制综艺节目《我们相爱吧》时，吴昕和潘玮柏组成了cp，一开始两个人都不被看好，如今一步步的抢占了各大话题的榜单，成为了目前最受欢迎的组合。吴昕一句话戳中大家的G点：“潘玮柏是最适合做她男朋友的人“。这是不是在向大家暗示什么？或者是向潘玮柏暗示？不过一个姑娘当众做这么明显的暗示也是该给个赞！好样的，吴昕！！	
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel panel-info">
+								
+								<div class="panel-heading">
+									<div class="panel-title">
+										<a href="#pwb" data-toggle="collapse" data-parent="#zdk">潘玮柏</a>
+									</div>
+								</div>
+								
+								<div class="panel-collapse collapse in" id="pwb">
+									<div class="panel-body">
+										最近在录制综艺节目《我们相爱吧》时，吴昕和潘玮柏组成了cp，一开始两个人都不被看好，如今一步步的抢占了各大话题的榜单，成为了目前最受欢迎的组合。吴昕一句话戳中大家的G点：“潘玮柏是最适合做她男朋友的人“。这是不是在向大家暗示什么？或者是向潘玮柏暗示？不过一个姑娘当众做这么明显的暗示也是该给个赞！好样的，吴昕！！	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="col-sm-1"></div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="jquery-2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	</body>
+</html>

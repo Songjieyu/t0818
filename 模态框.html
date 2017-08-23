@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>图片响应式</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-8">
+					<h2 class="page-header">模态框</h2>
+					<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#login">
+						填写登录信息
+					</button>
+					<div class="modal" id="login">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">请输入您的信息</h4>
+								</div>
+								<div class="modal-body">
+									bbb
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-danger" data-dismiss="modal">关闭</button>
+									<button class="btn btn-success" data-dismiss="modal">提交</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h2 class="page-header">模态框<small>列表模态框</small></h2>
+					<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#login2">
+						填写登录信息
+					</button>
+					<div class="modal" id="login2">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">填写登录信息</h4>
+								</div>
+								<div class="modal-body clearfix">
+									<form action="" role="form" class="col-sm-10 col-sm-offset-1">
+										<div class="form-group">
+											<label for="name">用户名:</label>								
+											<input type="text" id="name" class="form-control" placeholder="请输入你的用户名" />
+										</div>
+										<div class="form-group">
+											<label for="pw">密码:</label>
+											<input type="password" id="pw" class="form-control" placeholder="请输入你的密码" />
+										</div>
+										<div class="form-group">
+											<label for="pw2">请再次输入密码:</label>
+											<input type="password" id="pw2" class="form-control" placeholder="请再次输入你的密码" />
+										</div>
+										<div class="form-group">
+											<label for="email">邮箱:</label>
+											<input type="text" id="email" class="form-control" placeholder="请输入你的邮箱" />
+										</div>
+										<div class="form-group">
+											<label for="ad">请输入家庭住址:</label>
+											<input type="password" id="ad" class="form-control" placeholder="请输入家庭住址" />
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-danger" data-dismiss="modal">关闭</button>
+									<button class="btn btn-success" data-dismiss="modal">提交</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="jquery-2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	</body>
+
+</html>
